@@ -165,7 +165,7 @@ section h2{font-weight: 500;}
 #map .map_go{width:900px; height:450px; overflow-y: hidden;}
 
 @media (max-width:1600px) {
-    #map .map_go{width:700px; height:350px;}
+    #map .map_go{width:600px; height:300px;}
   
 }
 
@@ -192,7 +192,8 @@ section h2{font-weight: 500;}
 
 
 @media (max-width:756px) {
-
+    #footer .footer_logo img{width: 150px;}
     #footer .inner{justify-content: center; text-align: center;}
     #footer .sns li{margin-top: 50px;}
+    #footer .footer_txt{font-size: 1.4rem;}
 }

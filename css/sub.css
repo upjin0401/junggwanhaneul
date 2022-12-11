@@ -25,8 +25,8 @@ body{line-height: 1.5; font-family: 'S-CoreDream', sans-serif; color: #000; font
 #header .gnb > li > .depth2 a:hover{color: #345A90;}
 
 /* ham메뉴 */
-#header .ham{cursor: pointer; display: none; width: 100%; }
-#header .ham > img{ position: absolute; right: 20px; top: 45px;}
+#header .ham{cursor: pointer; display: none;  }
+
 
 @media(max-width:1400px){
     #header .gnb{display: none;}
@@ -57,7 +57,7 @@ body{line-height: 1.5; font-family: 'S-CoreDream', sans-serif; color: #000; font
 }  
 @media(max-width:768px){
 
-    
+    #header h1 img{width: 150px;}
         #header .mgnb{width: 70%;}
     
 }
@@ -83,8 +83,11 @@ section h2{font-weight: 500;}
     left: 0;
     bottom: 0px;
     transform: skewX(-10deg);z-index: -1;}
-
-
+#sub_main .none{display: none;}
+@media(max-width:768px){
+    #sub_main .inner{font-size: 1.6rem;}
+    #sub_main .none{display: block;}
+}
 
 
 /* time_tb */
@@ -123,7 +126,7 @@ section h2{font-weight: 500;}
 @media (max-width:768px){
     .notice table tr td:nth-child(1), .notice table tr th:nth-child(1){display: none;}
     /* 태그를 아예 지칭하지 않으면 tr안에 들어가는 첫번째 자식 지칭 */
-    
+    .notice table tr td:nth-child(2){width: 70%; padding-left: 0px;}
     .notice table tr td:nth-child(4), .notice table tr th:nth-child(4){display: none;}
     .notice table {font-size: 1.4rem;}
 }
@@ -148,7 +151,8 @@ section h2{font-weight: 500;}
 
 
 @media (max-width:756px) {
-
+    #footer .footer_txt{font-size: 1.4rem;}
+    #footer .footer_logo img{width: 150px;}
     #footer .inner{justify-content: center; text-align: center;}
     #footer .sns li{margin-top: 50px;}
 }
