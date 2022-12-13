@@ -136,12 +136,12 @@ section h2{font-weight: 500;}
 #person{padding: 150px 0;}
 #person h2{padding-bottom: 100px; text-align: center;}
 
-#person dl{display: flex; align-items: center; justify-content: center;  width: 500px; padding: 20px 0; border-radius: 20px; background-color: #e6e6e6; gap: 60px; border: 1px solid #5d5d5d;}
+#person dl{display: flex; align-items: center; justify-content: center;  width: 500px; padding: 20px 0; border-radius: 20px;  gap: 60px; border: 1px solid #5d5d5d;}
 #person .person1 {margin: 0 auto; margin-bottom: 50px; }
 #person dd span{font-size: 2.5rem; font-weight: 500;}
 
 .person_box{display: flex; gap: 60px; justify-content: center; flex-wrap: wrap;}
-.person_box dl{width: calc(100%/2); background-color: #f6f6f6;}
+.person_box dl{width: calc(100%/2); }
 #person dl img{display: block;}
 
 
