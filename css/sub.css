@@ -146,6 +146,9 @@ a{text-decoration: none !important;}
 .person_box dl{width: calc(100%/2); }
 #person dl img{display: block;}
 
+@media (max-width:1200px){
+
+}
 
 @media (max-width:756px){
     #person{padding: 100px 0;}
