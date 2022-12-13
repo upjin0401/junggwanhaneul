@@ -42,5 +42,7 @@ $('.mgnb_list > li').click(function(){
 
 
 
+
+
 });
 
