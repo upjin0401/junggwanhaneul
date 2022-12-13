@@ -71,7 +71,7 @@ a{text-decoration: none !important;}
 #sub_main .inner{text-align: center; padding: 150px 0; font-size: 2rem;}
 
 #sub_main p{line-height: 2;}
-    
+#sub_main .sub_mb{display: none;}
 
 #sub_main span{position: relative; opacity: 1;}
 #sub_main span::before{   content: '';
@@ -87,6 +87,8 @@ a{text-decoration: none !important;}
 @media(max-width:768px){
     #sub_main .inner{font-size: 1.6rem;}
     #sub_main .none{display: block;}
+    #sub_main .sub_mb{display: block;}
+    #sub_main .sub_pc{display: none;}
 }
 
 
