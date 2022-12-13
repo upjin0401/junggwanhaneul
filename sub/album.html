@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
     <title>정관하늘가족교회</title>
 
     <!-- open graph -->
@@ -23,6 +27,10 @@
     <link href="css/swiper-bundle.min.css" rel="stylesheet">
   
     <link href="../css/common.css" rel="stylesheet" type="text/css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
 
     <link href="../css/sub.css" rel="stylesheet" type="text/css">
     
@@ -103,26 +111,52 @@
         <!-- inner -->
     </header>
 
- <div id="album">
+    <div class="container gallery-container">
 
-    <div class="inner">
         <h2>교회앨범</h2>
-      
-   <ul class="gallery">
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-   </ul>
-
-</div>
-<!-- inner -->
-
- </div>
+    
+    
+        
+        <div class="tz-gallery">
+    
+            <div class="row">
+    
+                <div class="col-sm-12 col-md-4">
+                    <a class="lightbox" href="../images/sub/album1.png">
+                       <img src="../images/sub/album_01.png" alt="앨범1">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="../images/sub/album2.png">
+                        <img src="../images/sub/album_02.png" alt="앨범2">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg">
+                        <img src="../images/sub/album_02.png" alt="앨범2">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-8">
+                    <a class="lightbox" href="../images/intro.jpg">
+                        <img src="../images/intro.jpg" alt="앨범2">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg">
+                        <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg" alt="Coast">
+                    </a>
+                </div> 
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg">
+                        <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg" alt="Rails">
+                    </a>
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </div>
     
     <footer id="footer">
         <div class="inner">
@@ -151,5 +185,10 @@
     </div>
     <!-- wrap -->
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
 </body>
 </html>
