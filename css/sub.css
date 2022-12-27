@@ -97,7 +97,7 @@ a{text-decoration: none !important;}
 #time_tb h2{font-size: 2.5rem; padding-bottom: 50px; font-weight: 500;}
 #time_tb span{font-size: 1.6rem; color: #999; font-weight: 400;}
 #time_tb table{text-align: center; border: 1px solid #999; }
-#time_tb table tr:nth-child(4) {background: #efefef;}
+#time_tb table tr:nth-child(5) {background: #efefef;}
 #time_tb table th{padding: 20px 0; background-color: #345A90; color: #fff; }
 
 #time_tb table td{padding: 20px 0; border-bottom: 1px solid #999; border-right: 1px solid #999;}
